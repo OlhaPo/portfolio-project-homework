@@ -4,36 +4,37 @@
   --box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.3);
 }
 
-h1,
-h2 {
-  font-family: "Playfair Display", serif;
+h2,
+h3,
+p {
+  font-family: "Poppins", sans-serif;
 }
 
 h2,
 h3 {
   color: #272142;
   line-height: 54px;
+  opacity: 0.7;
 }
 
 h1 {
+  font-family: "Playfair Display", serif;
   font-weight: bold;
   font-size: 96px;
   line-height: 110px;
 }
 
 h2 {
-  font-weight: 400;
-  font-size: 42px;
+  font-weight: 500;
+  font-size: 40px;
 }
 
 h3 {
-  font-family: "Poppins", sans-serif;
-  font-weight: 400;
-  font-size: 24px;
+  font-weight: 500;
+  font-size: 22px;
 }
 
-p {
-  font-family: "Poppins", sans-serif;
+.main-section-heading p {
   font-size: 24px;
   line-height: 54px;
   margin: 0 auto;
@@ -50,7 +51,7 @@ p {
 .portfolio-link {
   margin: 20px;
   border-radius: 4px;
-  padding: 15px 30px;
+  padding: 15px 25px;
   text-decoration: none;
   text-transform: capitalize;
   font-size: 20px;
@@ -60,7 +61,7 @@ p {
   border: 2px solid var(--primary-color);
 }
 
-.section-heading {
+.main-section-heading {
   margin: 90px 20px 10px;
 }
 
@@ -76,8 +77,31 @@ p {
   height: 0;
 }
 
-.container h3 {
-  color: #5c5470;
+.about-section {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.about-section-content {
+  margin: 30px;
+}
+
+.about-section h1 {
+  font-size: 70px;
+  line-height: 1;
+}
+
+.about-section h2 {
+  font-size: 34px;
+  line-height: 1;
+}
+
+.about-section p {
+  font-size: 19px;
+  font-family: "Poppins", sans-serif;
+  color: black;
+  opacity: 0.8;
+  text-align: left;
 }
 
 @media (max-width: 576px) {
@@ -104,5 +128,14 @@ p {
     text-align: center;
     line-height: 1.5;
     padding: 20px;
+  }
+  .about-section {
+    padding: 0;
+  }
+  .about-section p {
+    text-align: center;
+  }
+  .about-section h2 {
+    line-height: 1;
   }
 }

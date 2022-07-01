@@ -43,7 +43,7 @@ h3 {
 .hero {
   text-align: center;
   background: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
-  padding: 50px 20px;
+  padding: 200px 20px 120px;
 }
 
 .contact-link,
@@ -76,9 +76,57 @@ h3 {
   height: 0;
 }
 
+.contact-box {
+  background: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+  padding: 90px 15px 50px;
+  border-radius: 10px;
+  margin: 120px auto;
+  max-width: 750px;
+  text-align: center;
+}
+
+.contact-box h3 {
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+.social-link a {
+  color: var(--primary-color);
+  font-size: 22px;
+  text-decoration: none;
+}
+
+.instagram-icon {
+  font-size: 25px;
+  padding: 10px 0;
+}
+
+.footer {
+  font-size: 25px;
+  line-height: 20px;
+  color: var(--primary-color);
+  font-weight: 400;
+  text-align: center;
+}
+
+.about-coder {
+  font-size: 18px;
+  opacity: 0.9;
+  margin: 80px auto 40px;
+}
+
+.about-coder a {
+  color: var(--primary-color);
+}
+
+.about-coder a:hover {
+  color: #272142;
+  font-weight: 500;
+}
+
 .content-container {
   text-align: center;
-  padding: 50px 20px;
+  padding: 120px 20px 0;
 }
 
 .content {
@@ -98,7 +146,6 @@ h3 {
 
 .content-container p {
   font-size: 19px;
-  font-family: "Poppins", sans-serif;
   color: black;
   opacity: 0.8;
   text-align: left;
@@ -129,6 +176,14 @@ h3 {
     line-height: 1.5;
     padding: 20px;
   }
+  .about-coder {
+    font-size: 16px;
+  }
+
+  .content-container {
+    text-align: center;
+    padding: 60px 20px 0;
+  }
   .content {
     text-align: center;
     padding: 0;
@@ -138,5 +193,12 @@ h3 {
   }
   .content-container h2 {
     line-height: 1;
+  }
+  .contact-box {
+    margin: 65px 0;
+    padding: 15px;
+  }
+  .footer {
+    margin-bottom: 100px;
   }
 }
